@@ -1,0 +1,35 @@
+.popular-tracks__heading {
+  display: flex;
+  align-items: center;
+  color: #aaa;
+}
+.popular-tracks__heading-number {
+  margin-left: 10px;
+  font-weight: 100;
+}
+.popular-tracks__heading-title {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 75px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.popular-tracks__heading-length {
+  font-size: 20px;
+  margin-left: auto;
+}
+.popular-tracks__heading-popularity {
+  font-size: 18px;
+  margin-left: 55px;
+  padding-right: 10px;
+}
+@media (max-width: 1175px) {
+  .popular-tracks__heading-popularity {
+    display: none;
+  }
+}
+
+.track-width {
+  max-width: 70%;
+  width: 100%;
+}

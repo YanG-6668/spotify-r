@@ -1,0 +1,40 @@
+.search 
+  display: flex
+  align-items: center
+
+  &__flows
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-right: 10px
+
+  &__flows-left,
+  &__flows-right
+    font-size: 32px
+    color: #aaa
+
+    height: 35px
+    transition: color 0.3s ease
+    &:hover
+      color: #fff
+    &.is-active
+      color: #fff
+
+  &__form
+    display: flex
+    align-items: center
+    padding: 3px 5px
+    border-radius: 16px
+    background-color: #fff
+    @media(max-width: 600px)
+      width: 70%
+      margin: 0 auto
+
+  &__form-input
+    font-size: 14px
+    border: none
+    outline: none
+  &__form-icon
+    height: 15px
+    margin-right: 5px
+    color: #282828

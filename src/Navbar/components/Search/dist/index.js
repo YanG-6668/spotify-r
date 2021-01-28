@@ -1,0 +1,4 @@
+"use strict";
+exports.__esModule = true;
+var Search_1 = require("./Search");
+exports["default"] = Search_1["default"];

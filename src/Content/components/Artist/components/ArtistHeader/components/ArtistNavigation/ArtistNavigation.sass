@@ -1,0 +1,20 @@
+.artist-navigation
+  display: flex
+  justify-content: space-between
+  align-items: center
+  background: rgba(24, 24, 24, 0.6)
+
+.friends
+  padding: 15px
+  display: flex
+  @media (max-width: 415px)
+    display: none
+  &__friend
+    height: 30px
+    &:not(:last-child)
+      margin-right: 5px
+
+    img
+      width: 30px
+      height: 30px
+      border-radius: 50%

@@ -1,0 +1,37 @@
+.playing
+  display: flex;
+  justify-content: space-between
+  align-items: center;
+
+  background: #282828;
+  border-bottom: 1px solid #181818;
+  @media (max-width: 768px)
+    border-top: 1px solid #181818;
+  &__img
+    width: 50px
+    height: 50px
+    img
+      height: 50px
+  &__song
+    display: flex
+    flex-direction: column
+    padding: 0 5px
+  &__song-name,
+  &__song-artist
+    font-size: 14px
+    line-height: 20px
+    color: #aaa
+
+    transition: color 0.3s ease
+    &:hover
+      text-decoration: underline
+      color: #fff
+  &__add
+    font-size: 20px
+    color: #aaa
+    
+    margin-right: 10px
+    cursor: pointer
+    transition: color 0.3s ease
+    &:hover
+      color: #fff

@@ -1,0 +1,26 @@
+.track-actions {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .track-actions {
+    justify-content: space-evenly;
+  }
+}
+.track-actions__skipback, .track-actions__play, .track-actions__skipforward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #aaa;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.track-actions__skipback:hover, .track-actions__play:hover, .track-actions__skipforward:hover {
+  color: #fff;
+}
+.track-actions__play {
+  font-size: 36px;
+}

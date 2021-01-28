@@ -1,0 +1,27 @@
+.artist-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(24, 24, 24, 0.6);
+}
+
+.friends {
+  padding: 15px;
+  display: flex;
+}
+@media (max-width: 415px) {
+  .friends {
+    display: none;
+  }
+}
+.friends__friend {
+  height: 30px;
+}
+.friends__friend:not(:last-child) {
+  margin-right: 5px;
+}
+.friends__friend img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

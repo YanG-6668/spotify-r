@@ -1,0 +1,17 @@
+.overview
+
+  &__artist
+    display: grid
+    grid-template-columns: 70% 30%
+    grid-gap: 15px
+    @media (max-width: 1024px)
+      grid-template-columns: 1fr
+
+  &__albums
+    margin-top: 30px
+  &__albums-title
+    display: flex
+    justify-content: space-between
+    align-items: center
+    border-bottom: 1px solid #282828
+    margin-bottom: 10px
