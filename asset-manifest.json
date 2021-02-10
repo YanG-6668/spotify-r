@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/spotify-r/static/css/main.89cee043.chunk.css",
-    "main.js": "/spotify-r/static/js/main.421b9249.chunk.js",
-    "main.js.map": "/spotify-r/static/js/main.421b9249.chunk.js.map",
-    "runtime-main.js": "/spotify-r/static/js/runtime-main.b2b32a08.js",
-    "runtime-main.js.map": "/spotify-r/static/js/runtime-main.b2b32a08.js.map",
+    "main.css": "/spotify-r/static/css/main.098d4fea.chunk.css",
+    "main.js": "/spotify-r/static/js/main.83df81d0.chunk.js",
+    "main.js.map": "/spotify-r/static/js/main.83df81d0.chunk.js.map",
+    "runtime-main.js": "/spotify-r/static/js/runtime-main.05b17c5c.js",
+    "runtime-main.js.map": "/spotify-r/static/js/runtime-main.05b17c5c.js.map",
     "static/css/2.679831fc.chunk.css": "/spotify-r/static/css/2.679831fc.chunk.css",
-    "static/js/2.3a10b18b.chunk.js": "/spotify-r/static/js/2.3a10b18b.chunk.js",
-    "static/js/2.3a10b18b.chunk.js.map": "/spotify-r/static/js/2.3a10b18b.chunk.js.map",
-    "static/js/3.200dbfe4.chunk.js": "/spotify-r/static/js/3.200dbfe4.chunk.js",
-    "static/js/3.200dbfe4.chunk.js.map": "/spotify-r/static/js/3.200dbfe4.chunk.js.map",
+    "static/js/2.3895c30d.chunk.js": "/spotify-r/static/js/2.3895c30d.chunk.js",
+    "static/js/2.3895c30d.chunk.js.map": "/spotify-r/static/js/2.3895c30d.chunk.js.map",
+    "static/js/3.ea5e0916.chunk.js": "/spotify-r/static/js/3.ea5e0916.chunk.js",
+    "static/js/3.ea5e0916.chunk.js.map": "/spotify-r/static/js/3.ea5e0916.chunk.js.map",
     "index.html": "/spotify-r/index.html",
     "static/css/2.679831fc.chunk.css.map": "/spotify-r/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.89cee043.chunk.css.map": "/spotify-r/static/css/main.89cee043.chunk.css.map",
-    "static/js/2.3a10b18b.chunk.js.LICENSE.txt": "/spotify-r/static/js/2.3a10b18b.chunk.js.LICENSE.txt"
+    "static/css/main.098d4fea.chunk.css.map": "/spotify-r/static/css/main.098d4fea.chunk.css.map",
+    "static/js/2.3895c30d.chunk.js.LICENSE.txt": "/spotify-r/static/js/2.3895c30d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2b32a08.js",
+    "static/js/runtime-main.05b17c5c.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.3a10b18b.chunk.js",
-    "static/css/main.89cee043.chunk.css",
-    "static/js/main.421b9249.chunk.js"
+    "static/js/2.3895c30d.chunk.js",
+    "static/css/main.098d4fea.chunk.css",
+    "static/js/main.83df81d0.chunk.js"
   ]
 }
