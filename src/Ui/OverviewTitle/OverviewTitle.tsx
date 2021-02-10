@@ -1,12 +1,10 @@
 import React from 'react';
-
 import './OverviewTitle.sass';
-
-type Props = {
+interface OverviewTitleProps  {
   title: string
 }
 
-const OverviewTitle: React.FunctionComponent<Props> = ({ title }) => {
+const OverviewTitle: React.FunctionComponent<OverviewTitleProps> = ({ title }) => {
   return (
     <div className="section-title">
       {title}

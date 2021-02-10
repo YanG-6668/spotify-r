@@ -1,0 +1,34 @@
+.artist-content
+  padding: 15px
+
+.tabs
+  position: relative
+  display: flex
+  .is-active
+    position: absolute
+    left: 0
+    bottom: -6px
+
+    height: 4px
+    margin: 0 15px
+    background-color: #1ed760
+
+    transition: left 0.5s ease, width 0.5s ease
+    @media ( max-width: 767px )
+      bottom: 0
+
+  &__btn
+    letter-spacing: 1px
+    text-transform: uppercase
+    color: #fff
+
+    display: block
+    border: none
+    background-color: transparent
+    padding: 15px
+
+    outline: none
+    cursor: pointer
+
+    &:focus
+      outline: none
